@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  background-color: rgb(13, 13, 22);
+  color: white;
+  font-family: monospace;
+  font-size: 11pt;
+}
+
+button {
+  margin: 10px 0px 0px -10px;
+  border: none;
+  font-family: "Roboto Condensed", sans-serif;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 15px;
+  background-color: rgb(56, 56, 78);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(69, 67, 85);
+}
+
+a {
+  color: rgb(104, 195, 195);
+}
+
+h1 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+li {
+  font-size: larger;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+img {
+  display: flex;
+  flex: auto;
+  margin: auto;
+  max-width: 100%;
+  max-height: auto;
+}
+
+.tldr {
+  margin: 10px;
+  font-size: large;
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.home {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  text-decoration: none;
+  padding: 10px;
+  color: white !important;
+}
+
+.navigation {
+  background-image: linear-gradient(to right, rgb(32, 32, 32) , rgb(40, 40, 40));
+  padding: 20px;
+  margin: auto;
+  font-weight: lighter;
+  font-size: large;
+  font-style: italic;
+  text-decoration: none;
+  text-align: left;
+  font-family: monospace;
+  color: lightgray !important;
+  display: flex;
+}
+
+.nav-arrow {
+  font-style: initial;
+  font-size: xx-large;
+  text-align: right;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+@media screen and (max-width: 500px) {
+  .content {
+    width: 90%;
+    margin: 5%
+  }
+
+  .navigation {
+    width: 80%;
+    margin: 20px;
+  }
+
+  .nav-area {
+    margin: auto;
+    text-align: center;
+    
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 900px) {
+  .content {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    padding: 2%;
+    background-color: rgb(28, 28, 39);
+    size: 9pt;
+  }
+
+  .navigation {
+    width: auto;
+    margin: 20px;
+  }
+
+  .nav-area {
+    margin: auto;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 901px) {
+  .content {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    padding: 2%;
+    background-color: rgb(28, 28, 39);
+  }
+
+  .navigation {
+    width: 300px;
+    margin: 20px;
+  }
+
+  .nav-area {
+    display: flex;
+    margin: auto;
+    text-align: center;
+  }
+
+}
+
